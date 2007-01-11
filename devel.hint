@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin libX11-devel libXext-devel libXmu-devel libXpm-devel libXt-devel
+external-source: Xaw3d
+sdesc: "Three-dimensional Athena widget library (development)"
+ldesc: "Three-dimensional Athena widget library"

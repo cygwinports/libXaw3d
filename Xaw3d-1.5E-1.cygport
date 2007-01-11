@@ -1,0 +1,25 @@
+DESCRIPTION="3-D Athena Widgets library"
+HOMEPAGE="http://freshmeat.net/projects/xaw3d/"
+SRC_URI=ftp://ftp.visi.com/users/hawkeyd/X/${P}.tar.gz
+SRC_DIR=xc
+
+PKG_NAMES="${PN} lib${PN}8 lib${PN}-devel"
+PKG_HINTS="setup lib devel"
+PKG_CONTENTS[0]='usr/share/'
+PKG_CONTENTS[1]='usr/bin/'
+PKG_CONTENTS[2]='usr/include/ usr/lib/'
+
+src_compile() {
+	lndirs
+	ln -sf lib ${B}/X11
+	cd ${B}/lib/${PN}
+	xmkmf || error "xmkmf failed"
+	cygmake -j1 depend
+	cygmake
+}
+
+src_install() {
+	cd ${B}/lib/${PN}
+	cyginstall
+	dodoc README.XAW3D
+}

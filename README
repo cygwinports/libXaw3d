@@ -1,0 +1,147 @@
+Xaw3d
+------------------------------------------
+Three-dimensional Athena widget library
+
+Runtime requirements:
+  cygwin-1.5.23-2
+  libX11_6-1.1.1-1
+  libXext6-1.0.2-1
+  libXmu6-1.0.3-1
+  libXpm4-3.5.6-1
+  libXt6-1.0.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.23-2
+  binutils-20060817-1
+  bison-2.3-1
+  cygport-0.2.8-1
+  flex-2.5.33-1
+  gcc-core-3.4.4-3
+  imake-1.0.2-2
+  make-3.81-1
+
+Canonical website:
+  http://freshmeat.net/projects/xaw3d/
+
+Canonical download:
+  ftp://ftp.visi.com/users/hawkeyd/X/
+
+-------------------------------------------
+
+Build instructions:
+  unpack Xaw3d-1.5E-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./Xaw3d-1.5E-X.cygport all
+
+This will create:
+  /usr/src/Xaw3d-1.5E-X-src.tar.bz2
+  /usr/src/Xaw3d-1.5E-X.tar.bz2
+  /usr/src/libXaw3d-devel-1.5E-X.tar.bz2
+  /usr/src/libXaw3d8-1.5E-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(Xaw3d)
+  /usr/share/doc/Cygwin/Xaw3d-1.5E.README
+  /usr/share/doc/Xaw3d-1.5E/README.XAW3D
+
+(libXaw3d8)
+  /usr/bin/cygXaw3d-8.dll
+
+(libXaw3d-devel)
+  /usr/include/X11/Xaw3d/AllWidgets.h
+  /usr/include/X11/Xaw3d/AsciiSink.h
+  /usr/include/X11/Xaw3d/AsciiSinkP.h
+  /usr/include/X11/Xaw3d/AsciiSrc.h
+  /usr/include/X11/Xaw3d/AsciiSrcP.h
+  /usr/include/X11/Xaw3d/AsciiText.h
+  /usr/include/X11/Xaw3d/AsciiTextP.h
+  /usr/include/X11/Xaw3d/Box.h
+  /usr/include/X11/Xaw3d/BoxP.h
+  /usr/include/X11/Xaw3d/Cardinals.h
+  /usr/include/X11/Xaw3d/Command.h
+  /usr/include/X11/Xaw3d/CommandP.h
+  /usr/include/X11/Xaw3d/Dialog.h
+  /usr/include/X11/Xaw3d/DialogP.h
+  /usr/include/X11/Xaw3d/Form.h
+  /usr/include/X11/Xaw3d/FormP.h
+  /usr/include/X11/Xaw3d/Grip.h
+  /usr/include/X11/Xaw3d/GripP.h
+  /usr/include/X11/Xaw3d/Label.h
+  /usr/include/X11/Xaw3d/LabelP.h
+  /usr/include/X11/Xaw3d/Layout.h
+  /usr/include/X11/Xaw3d/LayoutP.h
+  /usr/include/X11/Xaw3d/List.h
+  /usr/include/X11/Xaw3d/ListP.h
+  /usr/include/X11/Xaw3d/MenuButtoP.h
+  /usr/include/X11/Xaw3d/MenuButton.h
+  /usr/include/X11/Xaw3d/MultiSink.h
+  /usr/include/X11/Xaw3d/MultiSinkP.h
+  /usr/include/X11/Xaw3d/MultiSrc.h
+  /usr/include/X11/Xaw3d/MultiSrcP.h
+  /usr/include/X11/Xaw3d/Paned.h
+  /usr/include/X11/Xaw3d/PanedP.h
+  /usr/include/X11/Xaw3d/Panner.h
+  /usr/include/X11/Xaw3d/PannerP.h
+  /usr/include/X11/Xaw3d/Porthole.h
+  /usr/include/X11/Xaw3d/PortholeP.h
+  /usr/include/X11/Xaw3d/Repeater.h
+  /usr/include/X11/Xaw3d/RepeaterP.h
+  /usr/include/X11/Xaw3d/Reports.h
+  /usr/include/X11/Xaw3d/Scrollbar.h
+  /usr/include/X11/Xaw3d/ScrollbarP.h
+  /usr/include/X11/Xaw3d/Simple.h
+  /usr/include/X11/Xaw3d/SimpleMenP.h
+  /usr/include/X11/Xaw3d/SimpleMenu.h
+  /usr/include/X11/Xaw3d/SimpleP.h
+  /usr/include/X11/Xaw3d/Sme.h
+  /usr/include/X11/Xaw3d/SmeBSB.h
+  /usr/include/X11/Xaw3d/SmeBSBP.h
+  /usr/include/X11/Xaw3d/SmeLine.h
+  /usr/include/X11/Xaw3d/SmeLineP.h
+  /usr/include/X11/Xaw3d/SmeP.h
+  /usr/include/X11/Xaw3d/SmeThreeD.h
+  /usr/include/X11/Xaw3d/SmeThreeDP.h
+  /usr/include/X11/Xaw3d/StripCharP.h
+  /usr/include/X11/Xaw3d/StripChart.h
+  /usr/include/X11/Xaw3d/Template.c
+  /usr/include/X11/Xaw3d/Template.h
+  /usr/include/X11/Xaw3d/TemplateP.h
+  /usr/include/X11/Xaw3d/Text.h
+  /usr/include/X11/Xaw3d/TextP.h
+  /usr/include/X11/Xaw3d/TextSink.h
+  /usr/include/X11/Xaw3d/TextSinkP.h
+  /usr/include/X11/Xaw3d/TextSrc.h
+  /usr/include/X11/Xaw3d/TextSrcP.h
+  /usr/include/X11/Xaw3d/ThreeD.h
+  /usr/include/X11/Xaw3d/ThreeDP.h
+  /usr/include/X11/Xaw3d/Tip.h
+  /usr/include/X11/Xaw3d/TipP.h
+  /usr/include/X11/Xaw3d/Toggle.h
+  /usr/include/X11/Xaw3d/ToggleP.h
+  /usr/include/X11/Xaw3d/Tree.h
+  /usr/include/X11/Xaw3d/TreeP.h
+  /usr/include/X11/Xaw3d/VendorEP.h
+  /usr/include/X11/Xaw3d/Viewport.h
+  /usr/include/X11/Xaw3d/ViewportP.h
+  /usr/include/X11/Xaw3d/Xaw3dP.h
+  /usr/include/X11/Xaw3d/XawImP.h
+  /usr/include/X11/Xaw3d/XawInit.h
+  /usr/lib/libXaw3d.dll.a
+
+------------------
+
+Port Notes:
+
+----- version 1.5E-1 -----
+Unofficial version bump.  Last official release was 1.5D-5.
+This is also an ABI bump; dependent packages must be rebuilt.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

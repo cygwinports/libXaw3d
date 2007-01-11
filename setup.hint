@@ -1,0 +1,4 @@
+category: X11
+requires: libXaw3d8 libXaw3d-devel
+sdesc: "Three-dimensional Athena widget library (documentation)"
+ldesc: "Three-dimensional Athena widget library"
