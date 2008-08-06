@@ -1,4 +1,3 @@
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x Makefile.in.in -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x mdate-sh -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x omf.make -x xmldocs.make origsrc/xc/lib/Xaw3d/Imakefile src/xc/lib/Xaw3d/Imakefile
 --- origsrc/xc/lib/Xaw3d/Imakefile	2003-03-08 08:55:18.000000000 -0600
 +++ src/xc/lib/Xaw3d/Imakefile	2007-01-10 14:09:16.734375000 -0600
 @@ -5,11 +5,11 @@
@@ -24,7 +23,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depco
  
  #ifdef SharedXawReqs
  REQUIREDLIBS = SharedXawReqs
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x Makefile.in.in -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x mdate-sh -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x omf.make -x xmldocs.make origsrc/xc/lib/Xaw3d/app-defaults/Fig src/xc/lib/Xaw3d/app-defaults/Fig
 --- origsrc/xc/lib/Xaw3d/app-defaults/Fig	2003-03-09 12:22:02.000000000 -0600
 +++ src/xc/lib/Xaw3d/app-defaults/Fig	2007-01-10 13:44:56.953125000 -0600
 @@ -1,5 +1,5 @@
