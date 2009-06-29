@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11_6 libXext6 libXmu6 libXpm4 libXt6
+requires: libX11_6 libXext6 libXmu6 libXpm4 libXt6
 external-source: Xaw3d
 sdesc: "Three-dimensional Athena widget library (runtime)"
 ldesc: "Three-dimensional Athena widget library"
