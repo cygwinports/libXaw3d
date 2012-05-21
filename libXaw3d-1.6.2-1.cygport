@@ -1,0 +1,19 @@
+inherit xorg
+
+PKG_NAMES="${PN}8 ${PN}-devel"
+libXaw3d8_CONTENTS='usr/bin/cygXaw3d-8.dll usr/share/'
+libXaw3d_devel_CONTENTS='usr/include/ usr/lib/'
+
+PKG_NAMES="libXaw3d8 libXaw3d-devel"
+PKG_HINTS="lib devel"
+libXaw3d8_CONTENTS="usr/bin/cygXaw3d-8.dll usr/share/doc/"
+libXaw3d_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="
+	--enable-internationalization
+	--enable-multiplane-bitmaps
+	--enable-gray-stipples
+	--enable-arrow-scrollbars
+"
+
+KEEP_LA_FILES="none"
