@@ -1,11 +1,13 @@
 inherit xorg
 
-PKG_NAMES="${PN}8 ${PN}-devel"
-libXaw3d8_CONTENTS='usr/bin/cygXaw3d-8.dll usr/share/'
-libXaw3d_devel_CONTENTS='usr/include/ usr/lib/'
+NAME="libXaw3d"
+VERSION=1.6.2
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="3-D Athena widget library"
+DESCRIPTION="Three-dimensional Athena widget library"
 
 PKG_NAMES="libXaw3d8 libXaw3d-devel"
-PKG_HINTS="lib devel"
 libXaw3d8_CONTENTS="usr/bin/cygXaw3d-8.dll usr/share/doc/"
 libXaw3d_devel_CONTENTS="usr/include/ usr/lib/"
 

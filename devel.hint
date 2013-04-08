@@ -1,5 +1,0 @@
-category: X11
-requires: libX11-devel libXext-devel libXmu-devel libXt-devel
-external-source: libXaw3d
-sdesc: "Three-dimensional Athena widget library (development)"
-ldesc: "Three-dimensional Athena widget library"
