@@ -2,8 +2,8 @@ inherit xorg
 
 NAME="libXaw3d"
 VERSION=1.6.2
-RELEASE=1
-CATEGORY="X11"
+RELEASE=2
+CATEGORY="Libs"
 SUMMARY="3-D Athena widget library"
 DESCRIPTION="Three-dimensional Athena widget library"
 
